@@ -5,6 +5,27 @@ build/
 dist/
 wheels/
 *.egg-info
+*.log
 
 # Virtual environments
-.venv
+.venv/
+env/
+venv/
+
+# Environment variables & secrets (민감 정보 보호)
+.env
+.env.*
+
+# macOS system files (맥 임시 메타데이터 파일)
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDE & Editors
+.vscode/
+.idea/
+
+# AI agent & Streamlit symlinks (불필요한 가상환경 링크 파일)
+.agents/
+.claude/
